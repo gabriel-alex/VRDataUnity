@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityProjectVRdataAnalysis", "Assembly-CSharp.csproj", "{D6C3C6CA-7D6E-8578-B076-D02A43490557}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityProjectVRdataAnalysis", "Assembly-CSharp-Editor.csproj", "{BE3E2AB4-F1AA-6FC1-D874-5D722179047B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6C3C6CA-7D6E-8578-B076-D02A43490557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6C3C6CA-7D6E-8578-B076-D02A43490557}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6C3C6CA-7D6E-8578-B076-D02A43490557}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6C3C6CA-7D6E-8578-B076-D02A43490557}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE3E2AB4-F1AA-6FC1-D874-5D722179047B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE3E2AB4-F1AA-6FC1-D874-5D722179047B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE3E2AB4-F1AA-6FC1-D874-5D722179047B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE3E2AB4-F1AA-6FC1-D874-5D722179047B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
