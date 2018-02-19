@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scene/city-waypoints.unity
+- path: Assets/Scene/City-costumGazeSystem.unity
   isLoaded: 1
   isActive: 1

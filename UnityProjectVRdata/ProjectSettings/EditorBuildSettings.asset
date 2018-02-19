@@ -5,6 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scene/city.unity
+  - enabled: 0
+    path: Assets/Scene/city-joytick.unity
     guid: 9627b8a3008f30344b5ba91259510402
+  - enabled: 0
+    path: Assets/Scene/city-waypoints.unity
+    guid: 2ce8f71ecb47d31428a53cc5038de910
+  - enabled: 1
+    path: Assets/GoogleVR/Demos/Scenes/GVRDemo.unity
+    guid: bb36d2905dc634f1c9eecb35beecaca8
+  - enabled: 1
+    path: Assets/GoogleVR/Demos/Scenes/KeyboardDemo.unity
+    guid: 2a44fd944cf574740a8f88ff7e39a487

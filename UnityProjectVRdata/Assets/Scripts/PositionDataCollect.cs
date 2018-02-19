@@ -42,12 +42,12 @@ public class PositionDataCollect : MonoBehaviour {
 			Debug.Log ("["+function_name+"] X:"+pos[0].ToString("G")+" Y:"+pos[1].ToString("G")+" Z:"+pos[2].ToString("G"));
 		}
 		WWW www = new WWW (service_url, form);
-		/*yield return www;
+		/*yield return www;*/
 		if (!string.IsNullOrEmpty (www.error)) {
 			Debug.Log ("["+function_name+"]" + www.error);
 		} else if (debug) {
 			Debug.Log ("["+function_name+"]Send accomplished");
-		}*/
+		}
 	}
 
 }
