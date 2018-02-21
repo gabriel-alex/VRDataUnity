@@ -14,5 +14,12 @@ public class Floor : GazeableObject {
 			Player.instance.transform.position = destLocation;
 
 		}
+		else if (Player.instance.activeMode == InputMode.FURNITURE) {
+
+			GameObject placedFurniture = GameObject.Instantiate (Player.instance.activeFurniturePrefab) as GameObject;
+
+			placedFurniture.transform.position = hitInfo.point;
+			
+		}
 	}
 }

@@ -18,7 +18,7 @@ public class VRcanvas : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+		LookAtPlayer ();		
 	}
 
 	public void SetActiveButton(GazeableButton activeButton){
@@ -36,4 +36,12 @@ public class VRcanvas : MonoBehaviour {
 		}
 	}
 
+	public void LookAtPlayer(){
+		Vector3 playerPos = Player.instance.transform.position;
+		Vector3 vectoPlayer = playerPos - transform.position;
+
+		Vector3 lookAtPos = transform.position - vectoPlayer;
+
+		transform.LookAt (lookAtPos);
+	}
 }

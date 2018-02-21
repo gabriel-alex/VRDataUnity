@@ -8,7 +8,7 @@ public class GazeableButton : GazeableObject {
 
 	protected VRcanvas parentPanel;
 
-	private string function_name ="GazeableButton";
+	public string function_name ="GazeableButton";
 
 	// Use this for initialization
 	void Start () {

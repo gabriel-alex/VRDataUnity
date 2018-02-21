@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ModeButton : GazeableButton {
+
+	public string function_name ="GazeableButton";
 	[SerializeField]
 	private InputMode mode;
 

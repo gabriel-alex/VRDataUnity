@@ -154,7 +154,9 @@
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrUIHelpers.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrVRHelpers.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
+     <Compile Include="Assets\Scripts\DragZone.cs" />
      <Compile Include="Assets\Scripts\Floor.cs" />
+     <Compile Include="Assets\Scripts\FurnitureButton.cs" />
      <Compile Include="Assets\Scripts\GazeableButton.cs" />
      <Compile Include="Assets\Scripts\GazeableObject.cs" />
      <Compile Include="Assets\Scripts\GazeSystem.cs" />
